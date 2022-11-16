@@ -46,7 +46,7 @@ class Hymn2 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('2'),
-        backgroundColor: Colors.black,
+        backgroundColor: Colors.red,
       ),
       body: ListView(
         children: [
