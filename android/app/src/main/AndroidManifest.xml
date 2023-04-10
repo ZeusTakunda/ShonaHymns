@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ccom.muyengwatakunda.shona_methodist_hymn_book">
    <application
-        android:label="shona_methodist_hymn_book"
+        android:label="Methodist Shona Hymns"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/methodistlogo">
         <activity
             android:name=".MainActivity"
             android:exported="true"
