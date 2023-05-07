@@ -1,6 +1,6 @@
 # shona_methodist_hymn_book
 
-A new Flutter project.
+This is a flutter project. It is a Shona Methodist Hymn book for android and ios. It contains hymns and a few other features.
 
 ## Getting Started
 
