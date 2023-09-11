@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shona_methodist_hymn_book/ShonaHymns.dart';
+import 'package:shona_methodist_hymn_book/searchPage.dart';
+import 'package:shona_methodist_hymn_book/searchPage2.dart';
 import 'package:splashscreen/splashscreen.dart';
 
 import 'ShonaPrayers.dart';
@@ -86,7 +88,27 @@ class FirstRoute extends StatelessWidget {
                               style: TextStyle(fontSize: 20.0)),
                         ),
                       ),
+
                     ],
+                  ),
+
+                ),
+                SizedBox(
+                  width: 370,
+                  height: 75,
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => MyApp()));
+                    },
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.black,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(30))),
+                    child: const Text('Search Hymns',
+                        style: TextStyle(fontSize: 20.0)),
                   ),
                 ),
               ]),
